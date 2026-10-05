@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Elhilo | Software Engineer</title>
+    <meta name="description" content="Portfolio of Noor Elhilo - Software engineering student specializing in full-stack web development, database systems, and software testing.">
+
+    <!-- Google Fonts: Serif Headings, Modern UI Sans & Monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Subtle Grain & Faint Lace Ambient Texture -->
+    <div class="grain-overlay" aria-hidden="true"></div>
+    <div class="lace-ambient-bg" aria-hidden="true"></div>
+
+    <!-- Minimal Custom Cursor -->
+    <div class="custom-cursor-dot" aria-hidden="true"></div>
+    <div class="custom-cursor-ring" aria-hidden="true"></div>
+
+    <div class="site-wrapper">
+
+        <!-- HEADER & MINIMAL NAVIGATION -->
+        <header class="site-header">
+            <div class="nav-container">
+                <a href="#hero" class="brand-mark" aria-label="Noor Elhilo">
+                    <span class="brand-name">Noor Elhilo</span>
+                </a>
+
+                <nav aria-label="Primary Navigation">
+                    <ul class="nav-menu">
+                        <li><a href="#work" class="nav-link">Work</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- 1. HERO SECTION -->
+            <section id="hero" class="hero-section">
+                <div class="hero-editorial-grid">
+                    <div class="hero-primary">
+                        <h1 class="hero-title">
+                            <span class="title-row">NOOR</span>
+                            <span class="title-row italic-accent">ELHILO</span>
+                        </h1>
+                        <p class="hero-subtitle">Software Engineering & Full-Stack Development</p>
+                    </div>
+
+                    <div class="hero-aside">
+                        <p class="hero-bio-lead">
+                            Software engineering student working across the stack, from designing normalized databases and backend services to building clean, responsive interfaces and writing thorough test suites.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#work" class="btn-editorial">
+                                <span>View Projects</span>
+                                <span class="arrow-symbol">→</span>
+                            </a>
+                            <div class="hero-links-list">
+                                <a href="https://github.com/nourelhilo" target="_blank" rel="noopener noreferrer" class="hero-social-link">GitHub</a>
+                                <a href="https://www.linkedin.com/in/nour-elhilo-18045b33a/" target="_blank" rel="noopener noreferrer" class="hero-social-link">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Star Divider -->
+            <div class="ornament-divider" aria-hidden="true">
+                <span class="star-icon">✦</span>
+            </div>
+
+            <!-- 2. SELECTED WORK (EDITORIAL SPREADS) -->
+            <section id="work" class="section">
+                <div class="section-header-wrap">
+                    <span class="section-label">SELECTED WORK</span>
+                    <h2 class="section-title">Projects</h2>
+                </div>
+
+                <div class="projects-container">
+
+                    <!-- Project 01: SOLANDER -->
+                    <article class="project-spread">
+                        <div class="project-spread-grid">
+                            <div class="project-visual-col">
+                                <div class="project-media-frame">
+                                    <img src="assets/solander.jpg" alt="Solander Movie Discovery Platform" loading="lazy">
+                                    <div class="media-vignette"></div>
+                                </div>
+                            </div>
+
+                            <div class="project-details-col">
+                                <div class="project-meta-header">
+                                    <span class="project-index-num">01</span>
+                                    <span class="project-category">Movie Discovery Platform</span>
+                                </div>
+                                <h3 class="project-title">Solander</h3>
+                                <p class="project-description">
+                                    A full-stack movie discovery platform built for exploring films, curated spotlights, and detailed cinema archives with a streamlined user experience.
+                                </p>
+
+                                <div class="project-stack-tags">
+                                    <span class="stack-pill">React</span>
+                                    <span class="stack-pill">Node</span>
+                                    <span class="stack-pill">MongoDB</span>
+                                    <span class="stack-pill">Express</span>
+                                </div>
+
+                                <div class="project-actions-row" style="display: flex; gap: 20px; align-items: center;">
+                                    <a href="https://solander-xi.vercel.app/explore" target="_blank" rel="noopener noreferrer" class="project-link-editorial">
+                                        <span>Live Platform</span>
+                                        <span class="arrow-symbol">→</span>
+                                    </a>
+                                    <a href="https://github.com/nourelhilo/movie-platform" target="_blank" rel="noopener noreferrer" class="project-link-editorial" style="color: var(--text-muted);">
+                                        <span>View on GitHub</span>
+                                        <span class="arrow-symbol">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 02: SATELLITE TRACKING SYSTEM -->
+                    <article class="project-spread layout-inverted">
+                        <div class="project-spread-grid">
+                            <div class="project-visual-col">
+                                <div class="project-media-frame">
+                                    <img src="assets/satellite.jpg" alt="Satellite Tracking System" loading="lazy">
+                                    <div class="media-vignette"></div>
+                                </div>
+                            </div>
+
+                            <div class="project-details-col">
+                                <div class="project-meta-header">
+                                    <span class="project-index-num">02</span>
+                                    <span class="project-category">Database Design & Web</span>
+                                </div>
+                                <h3 class="project-title">Satellite Tracking System</h3>
+                                <p class="project-description">
+                                    A database system for monitoring satellites, orbits, ground stations, and telemetry data, with a web dashboard on top. Designed the full ER/EER model and normalized schema through 3NF.
+                                </p>
+
+                                <div class="project-stack-tags">
+                                    <span class="stack-pill">Database Design</span>
+                                    <span class="stack-pill">3NF Normalization</span>
+                                    <span class="stack-pill">SQL</span>
+                                    <span class="stack-pill">Web Dashboard</span>
+                                </div>
+
+                                <a href="https://github.com/nourelhilo" target="_blank" rel="noopener noreferrer" class="project-link-editorial">
+                                    <span>View on GitHub</span>
+                                    <span class="arrow-symbol">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 03: NETWORK PACKET CLASSIFIER -->
+                    <article class="project-spread">
+                        <div class="project-spread-grid">
+                            <div class="project-visual-col">
+                                <div class="project-media-frame">
+                                    <img src="assets/network.jpg" alt="Network Packet Classifier" loading="lazy">
+                                    <div class="media-vignette"></div>
+                                </div>
+                            </div>
+
+                            <div class="project-details-col">
+                                <div class="project-meta-header">
+                                    <span class="project-index-num">03</span>
+                                    <span class="project-category">QA & Software Testing</span>
+                                </div>
+                                <h3 class="project-title">Network Packet Classifier</h3>
+                                <p class="project-description">
+                                    A packet classifier built from scratch and tested using a full range of techniques, including boundary value analysis, equivalence class testing, and state machine testing.
+                                </p>
+
+                                <div class="project-stack-tags">
+                                    <span class="stack-pill">C++</span>
+                                    <span class="stack-pill">Boundary Testing</span>
+                                    <span class="stack-pill">Equivalence Partitioning</span>
+                                    <span class="stack-pill">GTest</span>
+                                </div>
+
+                                <a href="https://github.com/nourelhilo" target="_blank" rel="noopener noreferrer" class="project-link-editorial">
+                                    <span>View on GitHub</span>
+                                    <span class="arrow-symbol">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 04: TASTELENS -->
+                    <article class="project-spread layout-inverted">
+                        <div class="project-spread-grid">
+                            <div class="project-visual-col">
+                                <div class="project-media-frame">
+                                    <img src="assets/recipe.jpg" alt="TasteLens" loading="lazy">
+                                    <div class="media-vignette"></div>
+                                </div>
+                            </div>
+
+                            <div class="project-details-col">
+                                <div class="project-meta-header">
+                                    <span class="project-index-num">04</span>
+                                    <span class="project-category">.NET & Sentiment Analysis</span>
+                                </div>
+                                <h3 class="project-title">TasteLens</h3>
+                                <p class="project-description">
+                                    A recipe rating platform that uses sentiment analysis on user reviews, built with .NET and MSSQL.
+                                </p>
+
+                                <div class="project-stack-tags">
+                                    <span class="stack-pill">.NET</span>
+                                    <span class="stack-pill">MSSQL</span>
+                                    <span class="stack-pill">Sentiment Analysis</span>
+                                    <span class="stack-pill">C#</span>
+                                </div>
+
+                                <a href="https://github.com/nourelhilo" target="_blank" rel="noopener noreferrer" class="project-link-editorial">
+                                    <span>View on GitHub</span>
+                                    <span class="arrow-symbol">→</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Star Divider -->
+            <div class="ornament-divider" aria-hidden="true">
+                <span class="star-icon">✦</span>
+            </div>
+
+            <!-- 3. ABOUT SECTION -->
+            <section id="about" class="section">
+                <div class="section-header-wrap">
+                    <span class="section-label">ABOUT</span>
+                    <h2 class="section-title">A Bit About Me</h2>
+                </div>
+
+                <div class="about-clean-wrap">
+                    <p class="about-text-lead">
+                        I'm a software engineering student who works across the stack, from building interfaces to writing test cases and tracking down defects. I like making things that actually work and don't look bad either.
+                    </p>
+                    <p class="about-text-sub">
+                        I enjoy working with clean architecture, well-structured databases, and building web apps that feel polished and reliable. When I'm not writing code or debugging test cases, I'm usually learning new tools and refining my projects.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Star Divider -->
+            <div class="ornament-divider" aria-hidden="true">
+                <span class="star-icon">✦</span>
+            </div>
+
+            <!-- 4. SKILLS SECTION (EDITORIAL INDEX STYLE) -->
+            <section id="skills" class="section">
+                <div class="section-header-wrap">
+                    <span class="section-label">INDEX</span>
+                    <h2 class="section-title">Skills</h2>
+                </div>
+
+                <div class="skills-index-grid">
+
+                    <!-- 01 FRONTEND -->
+                    <div class="skills-index-block">
+                        <div class="skills-index-header">
+                            <span class="index-badge">01</span>
+                            <h3>FRONTEND</h3>
+                        </div>
+                        <p class="skills-items-line">React · HTML · CSS · JavaScript</p>
+                    </div>
+
+                    <!-- 02 BACKEND -->
+                    <div class="skills-index-block">
+                        <div class="skills-index-header">
+                            <span class="index-badge">02</span>
+                            <h3>BACKEND</h3>
+                        </div>
+                        <p class="skills-items-line">Node · Express · MongoDB</p>
+                    </div>
+
+                    <!-- 03 OTHER -->
+                    <div class="skills-index-block">
+                        <div class="skills-index-header">
+                            <span class="index-badge">03</span>
+                            <h3>OTHER</h3>
+                        </div>
+                        <p class="skills-items-line">C++ · Firebase · Cisco · Git</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Star Divider -->
+            <div class="ornament-divider" aria-hidden="true">
+                <span class="star-icon">✦</span>
+            </div>
+
+            <!-- 5. CONTACT SECTION -->
+            <section id="contact" class="section contact-section">
+                <div class="contact-editorial-box">
+                    <h2 class="contact-headline">LET'S MAKE SOMETHING.</h2>
+
+                    <div class="contact-channels-grid">
+                        <a href="mailto:nourelhilo77@gmail.com" class="channel-card">
+                            <span class="channel-label">EMAIL</span>
+                            <span class="channel-value">nourelhilo77@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nour-elhilo-18045b33a/" target="_blank" rel="noopener noreferrer" class="channel-card">
+                            <span class="channel-label">LINKEDIN</span>
+                            <span class="channel-value">nour-elhilo</span>
+                        </a>
+                        <a href="https://github.com/nourelhilo" target="_blank" rel="noopener noreferrer" class="channel-card">
+                            <span class="channel-label">GITHUB</span>
+                            <span class="channel-value">nourelhilo</span>
+                        </a>
+                        <a href="tel:+962799256896" class="channel-card">
+                            <span class="channel-label">PHONE</span>
+                            <span class="channel-value">+962 7 9925 6896</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-name">Noor Elhilo</div>
+                <a href="#hero" class="footer-back-to-top">
+                    <span>Back to Top</span>
+                    <span>↑</span>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
